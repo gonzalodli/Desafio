@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2? family= Ubuntu:wght@300;500;700 & display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: rgba(236, 220, 179, 0.8);
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "ubuntu", sans-serif;
+  font-size: 3em;
+  line-height: 2.3rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+p {
+  font-family: "ubuntu", sans-serif;
+  color: #181818;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+#botonera img {
+  width: 280px;
+}
+@media (min-width: 280px) and (max-width: 340px) {
+  #botonera img {
+    width: 190px;
+  }
+}
+
+.botonera ul li a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #5B5959;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 10px;
+  transition: background-size 0.8s;
+}
+.botonera ul li a:hover {
+  color: black;
+  font-weight: 500;
+  background-size: 100% 2px;
+}
+
+.bg-cream {
+  background-color: rgba(236, 220, 179, 0.8);
+}
+
+.bg-degrade {
+  background: linear-gradient(to top, #D68A31, #f0cf93);
+  opacity: 0.9;
+}
+
+.item__exp {
+  border-radius: 8px;
+  transition: transform 0.1s;
+}
+.item__exp:hover {
+  filter: opacity(0.9);
+  transform: scale(0.9);
+  transition: 4s;
+}
+
+#footer img {
+  padding: 25px;
+}
+
+/*# sourceMappingURL=main.css.map */
